@@ -1,0 +1,23 @@
+Se desea administrar el acceso de vehículos a un estacionamiento de pago. El estacionamiento no se encuentra automatizado, por lo que existe un empleado encargado de registrar las entradas y salidas de vehículos.
+
+Los vehículos se identifican por su número de placa y tipo de vehículo. Cuando un vehículo entra en el estacionamiento el empleado registra su entrada y al salir registra su salida y, en algunos casos, cobra el importe correspondiente por el tiempo de estacionamiento.
+
+El importe cobrado depende del tipo de vehículo:
+
+    Los vehículos oficiales no pagan, pero se registran sus estancias para llevar el control. (Una estancia consiste en una hora de entrada y una de salida)
+    Los residentes pagan a $1.00MX el minuto. La aplicación irá acumulando el tiempo (en minutos) que han permanecido estacionados.
+    Los no residentes pagan a la salida del estacionamiento a razón de $3.00MX por minuto.
+
+
+La aplicación debe tener un reporte donde pueda filtrar por horas del día y muestre las entradas y salidas de vehículos y en su caso el cobro correspondiente, este reporte aparte de mostrarse en vista, deberá permitir descargarlo en EXCEL Y PDF
+
+
+Ejemplo : 
+
+Núm. placa  Tiempo estacionado (min.)  Tipo    Cantidad a pagar
+
+S1234A              30 min  residente            $30.00
+
+4567ABC              3 hrs         no residente     $540.00
+
+4FRU573              5 hrs oficial 
