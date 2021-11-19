@@ -1,0 +1,6 @@
+#noPlaca{
+    text-transform: uppercase;
+}
+.form-control, .form-select, btn{
+    border-radius: 40px;
+}
